@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Family from './family'
+import Component, { Segundo } from './component'
 
 ReactDOM.render(
     <div>
-        <Family />
+        <Component />
+        <Segundo />
     </div>
     , document.getElementById('app')
 )
