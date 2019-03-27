@@ -4,10 +4,11 @@ import { combineReducers, createStore } from 'redux'
 import { Provider } from 'react-redux'
 
 import Field from './field'
+import fieldReducer from './filedReducer'
 
 
 const reducers = combineReducers({
-    field: () => ({ value: 'Opa' })
+    field: fieldReducer
 })
 
 ReactDOM.render(
